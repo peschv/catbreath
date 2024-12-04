@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="home.css">
+    <title>Cat Breath</title>
+</head>
+<body>
+    <header>
+        <!-- Logo -->
+        <img src="breath-logo.png" alt="App Logo" class="app-logo">
+        <!-- App name -->
+        <h1>Cat Breath</h1> 
+        <!-- Language selector -->
+        <select id="languageSelect" name="language">
+            <option value="en">English</option>
+            <option value="es">Español</option>
+            <option value="fr">Français</option>
+            <option value="de">Deutsch</option>
+            <option value="cs">Čeština</option>
+            <option value="da">Dansk</option>
+            <option value="nl">Nederlands</option>
+            <option value="fi">Suomi</option>
+            <option value="el">Ελληνικά</option>
+            <option value="hu">Magyar</option>
+            <option value="it">Italiano</option>
+            <option value="no">Norsk</option>
+            <option value="pl">Polski</option>
+            <option value="pt_br">Português (Brasil)</option>
+            <option value="pt_pt">Português (Portugal)</option>
+            <option value="ru">Русский</option>
+            <option value="sv">Svenska</option>
+            <option value="th">ไทย</option>
+            <option value="tr">Türkçe</option>
+            <option value="ja">日本語</option>
+            <option value="ko">한국어</option>
+            <option value="zh">中文 (简体)</option>
+        </select>
+    </header>
+    <main>
+        <!-- Description of app -->
+        <h2 data-translate="howItWorks"></h2>
+        <p data-translate="howItWorksContent"></p>
+        
+        <!-- FAQ section -->
+        <h2 data-translate="faq"></h2>
+        <ul>
+            <li>
+                <h3 data-translate="q1"></h3>
+                <p data-translate="a1"></p>
+            </li>
+            <li>
+                <h3 data-translate="q2"></h3>
+                <p data-translate="a2"></p>
+            </li>
+            <li>
+                <h3 data-translate="q3"></h3>
+                <p data-translate="a3"></p>
+            </li>
+            <li>
+                <h3 data-translate="q4"></h3>
+                <p data-translate="a4"></p>
+            </li>
+            <li>
+                <h3 data-translate="q5"></h3>
+                <p data-translate="a5"></p>
+            </li>
+            <li>
+                <h3 data-translate="q6"></h3>
+                <p data-translate="a6"></p>
+            </li>
+            <li>
+                <h3 data-translate="q7"></h3>
+                <p data-translate="a7"></p>
+            </li>
+        </ul>
+
+        <!-- Submission form -->
+        <div class="form-container">
+            <h2 data-translate="contact"></h2>
+            <form id="contactForm" action="https://formspree.io/f/meoqnvba" method="POST">
+                <div class="form-email">
+                    <label for="email" data-translate="email">Email:</label><br>
+                    <input type="email" id="email" name="email" required><br>
+                </div>
+                <div class="form-message">
+                    <label for="message" data-translate="message">Message:</label><br>
+                    <textarea id="message" name="message" required></textarea><br>
+                </div>
+                <div class="form-submit">
+                    <input type="submit" data-translate="send" value="Send">  
+                </div>
+                
+            </form>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/library-name/version/library.min.js"></script>
+    <script type="module" src="translations.js"></script>
+    <script type="module" src="app.js"></script>
+</body>
+</html>
