@@ -43,55 +43,65 @@
         <p data-translate="description"></p>
 
         <!-- FAQ section -->
-        <h2 data-translate="faq"></h2>
-        <ul>
-            <li>
-                <h3 data-translate="q1"></h3>
-                <p data-translate="a1"></p>
-            </li>
-            <li>
-                <h3 data-translate="q2"></h3>
-                <p data-translate="a2"></p>
-            </li>
-            <li>
-                <h3 data-translate="q3"></h3>
-                <p data-translate="a3"></p>
-            </li>
-            <li>
-                <h3 data-translate="q4"></h3>
-                <p data-translate="a4"></p>
-            </li>
-            <li>
-                <h3 data-translate="q5"></h3>
-                <p data-translate="a5"></p>
-            </li>
-            <li>
-                <h3 data-translate="q6"></h3>
-                <p data-translate="a6"></p>
-            </li>
-            <li>
-                <h3 data-translate="q7"></h3>
-                <p data-translate="a7"></p>
-            </li>
-        </ul>
+        <details>
+            <summary class="faq-title" data-translate="faq"></summary>
+            <ul>
+                <li>
+                    <h3 data-translate="q1"></h3>
+                    <p data-translate="a1"></p>
+                </li>
+                <li>
+                    <h3 data-translate="q2"></h3>
+                    <p data-translate="a2"></p>
+                </li>
+                <li>
+                    <h3 data-translate="q3"></h3>
+                    <p data-translate="a3"></p>
+                </li>
+                <li>
+                    <h3 data-translate="q4"></h3>
+                    <p data-translate="a4"></p>
+                </li>
+                <li>
+                    <h3 data-translate="q5"></h3>
+                    <p data-translate="a5"></p>
+                </li>
+                <li>
+                    <h3 data-translate="q6"></h3>
+                    <p data-translate="a6"></p>
+                </li>
+                <li>
+                    <h3 data-translate="q7"></h3>
+                    <p data-translate="a7"></p>
+                </li>
+            </ul>
+        </details>
+        
+        <!-- Privacy policy -->
+        <details>
+            <summary class="privacy-title" data-translate="privacy"></summary>
+            <p class="privacy-content" data-translate="privacycontent"></p>
+        </details>
 
         <!-- Submission form -->
         <div class="form-container">
-            <h2 data-translate="contact"></h2>
-            <form id="contactForm" action="https://formspree.io/f/meoqnvba" method="POST">
-                <div class="form-email">
-                    <label for="email" data-translate="email">Email:</label><br>
-                    <input type="email" id="email" name="email" required><br>
-                </div>
-                <div class="form-message">
-                    <label for="message" data-translate="message">Message:</label><br>
-                    <textarea id="message" name="message" required></textarea><br>
-                </div>
-                <div class="form-submit">
-                    <input type="submit" data-translate="send" value="Send">  
-                </div>
-                
-            </form>
+            <div class="form-content">
+                <h2 data-translate="contact"></h2>
+                <form id="contactForm" action="https://formspree.io/f/meoqnvba" method="POST">
+                    <div class="form-email">
+                        <label for="email" data-translate="email">Email:</label><br>
+                        <input type="email" id="email" name="email" required><br>
+                    </div>
+                    <div class="form-message">
+                        <label for="message" data-translate="message">Message:</label><br>
+                        <textarea id="message" name="message" required></textarea><br>
+                    </div>
+                    <div class="form-submit">
+                        <input type="submit" data-translate="send" value="Send">  
+                    </div>
+                    
+                </form>
+            </div>
         </div>
     </main>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/library-name/version/library.min.js"></script>
