@@ -16,8 +16,7 @@ header {
 }
 
 .app-logo {
-    height: 50px; 
-    margin-right: 15px; /* Space between logo and title */
+    height: 90px; 
 }
 
 /* App name */
@@ -127,5 +126,9 @@ input[type="submit"]:hover {
 
     .form-message textarea {
         width: 100%; /* Increase size of form message field */
+    }
+
+    .app-logo {
+        height: 50px; 
     }
 }

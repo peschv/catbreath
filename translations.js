@@ -6,8 +6,7 @@
 */
 const translations = {
     en: {  // English (default). 
-        howItWorks: "How It Works",
-        howItWorksContent: "Brief instruction on how the app works in English.",
+        description: "The iOS app for monitoring heart health by taking breaths per minute readings.",
         faq: "Frequently Asked Questions",
         q1: "How and when should I measure my cat's breathing?",
         a1: "Ideally when the cat is at rest or asleep. Each time the cat either inhales or exhales, simply tap the lungs icon on the Breath Monitor. After 30 seconds, the timer will stop and your cat's results will appear on the screen.",
@@ -29,8 +28,7 @@ const translations = {
         send: "Send"
     },
     es: { // Spanish translation. 
-        howItWorks: "Cómo Funciona",
-        howItWorksContent: "Breve instrucción sobre cómo funciona la aplicación en español.",
+        description: "La aplicación de iOS para monitorear la salud del corazón tomando lecturas de respiraciones por minuto.",
         faq: "Preguntas Frecuentes",
         q1: "¿Cómo y cuándo debo medir la respiración de mi gato?",
         a1: "Idealmente cuando el gato está en reposo o durmiendo. Cada vez que el gato inhala o exhala, simplemente toca el ícono de los pulmones en el Monitor de Respiración. Después de 30 segundos, el temporizador se detendrá y los resultados de tu gato aparecerán en la pantalla.",
@@ -52,8 +50,7 @@ const translations = {
         send: "Enviar"
     },
     fr: { // French translation. 
-        howItWorks: "Comment ça marche",
-        howItWorksContent: "Brève instruction sur le fonctionnement de l'application en français.",
+        description: "L'application iOS pour surveiller la santé cardiaque en prenant des mesures de la fréquence respiratoire par minute.",
         faq: "Questions Fréquemment Posées",
         q1: "Comment et quand devrais-je mesurer la respiration de mon chat ?",
         a1: "Idéalement lorsque le chat est au repos ou endormi. Chaque fois que le chat inhale ou expire, il suffit d'appuyer sur l'icône des poumons sur le Moniteur de Respiration. Après 30 secondes, le minuteur s'arrêtera et les résultats de votre chat apparaîtront à l'écran.",
@@ -75,8 +72,7 @@ const translations = {
 		send:"Envoyer"
     },
     de: { // German translation. 
-		howItWorks:"Wie es funktioniert", 
-		howItWorksContent:"Kurze Anleitung zur Funktionsweise der App auf Deutsch.", 
+		description:"Die iOS-App zur Überwachung der Herzgesundheit durch das Messen der Atemzüge pro Minute.", 
 		faq:"Häufig gestellte Fragen", 
 		q1:"Wie und wann sollte ich die Atmung meiner Katze messen?", 
 		a1:"Idealerweise wenn die Katze ruht oder schläft. Jedes Mal wenn die Katze einatmet oder ausatmet, tippen Sie einfach auf das Lungen-Symbol im Atemmonitor. Nach 30 Sekunden stoppt der Timer und die Ergebnisse Ihrer Katze erscheinen auf dem Bildschirm.", 
@@ -98,8 +94,7 @@ const translations = {
 		send:"Senden"
     },
     cs: { // Czech translation. 
-    	howItWorks:"Jak to funguje",     
-    	howItWorksContent:"Stručná instrukce o tom jak aplikace funguje v češtině.",     
+    	description:"Aplikace pro iOS pro sledování zdraví srdce pomocí měření dechů za minutu.",     
     	faq:"Často kladené dotazy",     
     	q1:"Jak a kdy bych měl měřit dýchání mé kočky?",     
     	a1:"Ideálně když je kočka v klidu nebo spí. Každýkrát když kočka vdechne nebo vydechne stačí klepnout na ikonu plic na monitoru dýchání. Po 30 sekundách se časovač zastaví a výsledky vaší kočky se zobrazí na obrazovce.",     
@@ -121,8 +116,7 @@ const translations = {
     	send:"Odeslat"    
     },
     da: { // Danish translation. 
-      howItWorks:'Sådan fungerer det',  
-      howItWorksContent:'Kort instruktion om hvordan appen fungerer på dansk.',  
+      description:'iOS-appen til at overvåge hjertehelsen ved at tage målinger af vejrtrækninger pr. minut.',  
       faq:'Ofte stillede spørgsmål',  
       q1:'Hvordan og hvornår skal jeg måle min kats vejrtrækning?',  
       a1:'Ideelt set når katten er i hvile eller sover. Hver gang katten indånder eller udånder skal du blot trykke på lungeikonet på åndedrætsmonitoren. Efter 30 sekunder stopper timeren og din kats resultater vises på skærmen.',  
@@ -144,8 +138,7 @@ const translations = {
       send:'Send'    
     },    
     nl: { // Dutch translation.    
-      howItWorks:'Hoe het werkt',    
-      howItWorksContent:'Korte instructie over hoe de app werkt in het Nederlands.',    
+      description:'De iOS-app voor het monitoren van de hartgezondheid door het meten van ademhalingen per minuut.',    
       faq:'Veelgestelde vragen',    
       q1:'Hoe en wanneer moet ik het ademhalen van mijn kat meten?',    
       a1:'Bij voorkeur wanneer de kat rust of slaapt. Elke keer dat de kat in- of uitademt hoeft u alleen maar op het longpictogram op de ademhalingsmonitor te tikken. Na 30 seconden stopt de timer en verschijnen de resultaten van uw kat op het scherm.',    
@@ -167,8 +160,7 @@ const translations = {
       send:'Verzenden'   
     },   
     fi: { // Finnish translation.  
-       howItWorks:'Kuinka se toimii',   
-       howItWorksContent:'Lyhyt ohje siitä kuinka sovellus toimii suomeksi.',   
+       description:'iOS-sovellus sydänterveyden seuraamiseen hengitysten minuutissa lukemien avulla.',   
        faq:'Usein kysytyt kysymykset',   
        q1:'Kuinka ja milloin minun pitäisi mitata kissani hengitystä?',   
        a1:'Ihanteellisesti kun kissa on levossa tai nukkuu. Joka kerta kun kissa hengittää sisään tai ulos napauta vain keuhkoikonia Hengityksenvalvonnassa. Kolmenkymmenen sekunnin kuluttua ajastin pysähtyy ja kissasi tulokset näkyvät näytöllä.',   
@@ -190,8 +182,7 @@ const translations = {
        send:'Lähetä'   
     },   
     el: { // Greek translation.
-        howItWorks : 'Πώς λειτουργεί',
-        howItWorksContent : 'Σύντομες οδηγίες σχετικά με το πώς λειτουργεί η εφαρμογή στα ελληνικά.',
+        description : 'Η εφαρμογή iOS για την παρακολούθηση της καρδιακής υγείας μετρώντας τις αναπνοές ανά λεπτό.',
         faq : 'Συχνές ερωτήσεις',
         q1 : 'Πώς και πότε πρέπει να μετρήσω την αναπνοή της γάτας μου;',
         a1 : 'Ιδανικά όταν η γάτα είναι σε ηρεμία ή κοιμάται. Κάθε φορά που η γάτα εισπνέει ή εκπνέει απλά πατήστε το εικονίδιο των πνευμόνων στον παρακολουθητή αναπνοής. Μετά από 30 δευτερόλεπτα ο χρονοδιακόπτης θα σταματήσει και τα αποτελέσματα της γάτας σας θα εμφανιστούν στην οθόνη.',
@@ -213,8 +204,7 @@ const translations = {
         send:'Αποστολή'
      },
      hu: { // Hungarian translation.
-       howItWorks:'Hogyan működik',
-       howItWorksContent:'Rövid útmutató arról, hogyan működik az alkalmazás magyarul.',
+       description:'Az iOS alkalmazás a szív egészségének nyomon követésére légzésszám mérésekkel percenként.',
        faq:'Gyakran Ismételt Kérdések',
        q1:'Hogyan és mikor kell mérnem a macskám légzését?',
        a1:'Ideális esetben amikor a macska pihen vagy alszik. Minden alkalommal, amikor a macska belélegzik vagy kilélegzik, egyszerűen érintse meg a tüdő ikont a Légzésfigyelőn. 30 másodperc elteltével az időzítő leáll és macskája eredményei megjelennek a képernyőn.',
@@ -236,8 +226,7 @@ const translations = {
        send:'Küldés'
      },
      it: { // Italian translation.
-        howItWorks: "Come funziona",
-        howItWorksContent: "Breve istruzione su come funziona l'app in italiano.",
+        description: "L'app iOS per monitorare la salute del cuore tramite la misurazione delle respirazioni al minuto.",
         faq: "Domande Frequenti",
         q1: "Come e quando dovrei misurare la respirazione del mio gatto?",
         a1: "Ideale quando il gatto è a riposo o dorme. Ogni volta che il gatto inspira o espira, basta toccare l'icona dei polmoni sul Monitor della Respirazione. Dopo 30 secondi, il timer si fermerà e i risultati del tuo gatto appariranno sullo schermo.",
@@ -259,8 +248,7 @@ const translations = {
         send: "Invia"
     },
     no: { // Norwegian translation.
-        howItWorks: "Hvordan det fungerer",
-        howItWorksContent: "Kort instruksjon om hvordan appen fungerer på norsk.",
+        description: "iOS-appen for å overvåke hjertehelsen ved å ta målinger av pust per minutt.",
         faq: "Ofte stilte spørsmål",
         q1: "Hvordan og når skal jeg måle pusten til katten min?",
         a1: "Ideelt sett når katten hviler eller sover. Hver gang katten puster inn eller ut, trykk bare på lungeikonet på Pustemonitoren. Etter 30 sekunder stopper timeren og kattens resultater vises på skjermen.",
@@ -282,8 +270,7 @@ const translations = {
         send: "Send"
     },
     pl: { // Polish translation.
-        howItWorks: "Jak to działa",
-        howItWorksContent: "Krótka instrukcja dotycząca działania aplikacji w języku polskim.",
+        description: "Aplikacja na iOS do monitorowania zdrowia serca poprzez pomiar oddechów na minutę.",
         faq: "Najczęściej zadawane pytania",
         q1: "Jak i kiedy powinienem mierzyć oddech mojego kota?",
         a1: "Najlepiej, gdy kot jest w spoczynku lub śpi. Za każdym razem, gdy kot wdycha lub wydycha, wystarczy dotknąć ikony płuc na Monitorze Oddechu. Po 30 sekundach stoper zatrzyma się, a wyniki twojego kota pojawią się na ekranie.",
@@ -305,8 +292,7 @@ const translations = {
         send: "Wyślij"
     },
     pt_br: { // Portuguese (Brazil) translation.
-        howItWorks: "Como Funciona",
-        howItWorksContent: "Instruções breves sobre como o aplicativo funciona em português do Brasil.",
+        description: "O aplicativo iOS para monitorar a saúde do coração através da medição de respirações por minuto.",
         faq: "Perguntas Frequentes",
         q1: "Como e quando devo medir a respiração do meu gato?",
         a1: "Idealmente quando o gato está em repouso ou dormindo. Cada vez que o gato inala ou exala, basta tocar no ícone dos pulmões no Monitor de Respiração. Após 30 segundos, o cronômetro para e os resultados do seu gato aparecem na tela.",
@@ -328,8 +314,7 @@ const translations = {
         send: "Enviar"
     },
     pt_pt: { // Portuguese (Portugal) translation.
-      howItWorks:"Como Funciona",
-      howItWorksContent:"Instruções breves sobre como a aplicação funciona em português de Portugal.",
+      description:"A aplicação iOS para monitorizar a saúde do coração através da medição de respirações por minuto.",
       faq:"Perguntas Frequentes",
       q1:"Como e quando devo medir a respiração do meu gato?",
       a1:"Idealmente quando o gato está em repouso ou a dormir. Cada vez que o gato inala ou exala, basta tocar no ícone dos pulmões no Monitor de Respiração. Após 30 segundos, o cronómetro para e os resultados do seu gato aparecem no ecrã.",
@@ -351,8 +336,7 @@ const translations = {
       send:"Enviar"
     },
     ru: { // Russian translation.
-        howItWorks: "Как это работает",
-        howItWorksContent: "Краткое руководство о том, как работает приложение на русском.",
+        description: "Приложение для iOS для мониторинга здоровья сердца с помощью измерения дыханий в минуту.",
         faq: "Часто задаваемые вопросы",
         q1: "Как и когда мне измерять дыхание моего кота?",
         a1: "Идеально, когда кот отдыхает или спит. Каждый раз, когда кот вдыхает или выдыхает, просто нажмите на иконку легких на Мониторе Дыхания. Через 30 секунд таймер остановится, и результаты вашего кота появятся на экране.",
@@ -374,8 +358,7 @@ const translations = {
         send: "Отправить"
     },
     sv: { // Swedish translation.
-        howItWorks: "Hur det fungerar",
-        howItWorksContent: "Kort instruktion om hur appen fungerar på svenska.",
+        description: "iOS-appen för att övervaka hjärthälsan genom att mäta andetag per minut.",
         faq: "Vanliga frågor",
         q1: "Hur och när ska jag mäta min katts andning?",
         a1: "Idealiskt när katten vilar eller sover. Varje gång katten andas in eller ut, tryck bara på lungikonen på Andningsmonitoren. Efter 30 sekunder stannar timern och kattens resultat visas på skärmen.",
@@ -397,8 +380,7 @@ const translations = {
         send: "Skicka"
     },
     th: { // Thai translation.
-        howItWorks: "วิธีการทำงาน",
-        howItWorksContent: "คำแนะนำสั้น ๆ เกี่ยวกับวิธีการทำงานของแอปในภาษาไทย.",
+        description: "แอป iOS สำหรับติดตามสุขภาพหัวใจโดยการวัดการหายใจต่อนาที",
         faq: "คำถามที่พบบ่อย",
         q1: "ฉันควรจะวัดการหายใจของแมวเมื่อไหร่?",
         a1: "โดยปกติเมื่อแมวอยู่ในสภาพพักผ่อนหรือนอนหลับ ทุกครั้งที่แมวสูดหายใจเข้าและออก เพียงแค่แตะที่ไอคอนปอดบนเครื่องตรวจสอบการหายใจ หลังจาก 30 วินาที ตัวจับเวลาจะหยุดและผลลัพธ์ของแมวจะปรากฏบนหน้าจอ.",
@@ -420,8 +402,7 @@ const translations = {
         send: "ส่ง"
     },
     tr: { // Turkish translation.
-        howItWorks: "Nasıl Çalışır",
-        howItWorksContent: "Uygulamanın Türkçe nasıl çalıştığına dair kısa bir talimat.",
+        description: "Kalp sağlığını izlemek için iOS uygulaması, dakikada nefes sayımı yaparak.",
         faq: "Sıkça Sorulan Sorular",
         q1: "Kedimin nefesini ne zaman ve nasıl ölçmeliyim?",
         a1: "İdeali, kedi dinlenirken veya uyurken. Kedi her nefes aldığında veya verdiğinde, sadece Nefes Monitörü üzerindeki akciğer simgesine dokunun. 30 saniye sonra zamanlayıcı duracak ve kedinizin sonuçları ekranda görünecektir.",
@@ -443,8 +424,7 @@ const translations = {
         send: "Gönder"
     },
     ja: { // Japanese translation.
-        howItWorks: "使い方",
-        howItWorksContent: "アプリの使い方に関する簡単な説明（日本語）。",
+        description: "心臓の健康を監視するためのiOSアプリで、1分あたりの呼吸数を測定します。",
         faq: "よくある質問",
         q1: "猫の呼吸をいつ、どのように測定すべきですか？",
         a1: "理想的には、猫が休んでいるときや寝ているときです。猫が吸ったり吐いたりするたびに、呼吸モニターの肺のアイコンをタップしてください。30秒後にタイマーが停止し、猫の結果が画面に表示されます。",
@@ -466,8 +446,7 @@ const translations = {
         send: "送信"
     },
     ko: { // Korean translation.
-       howItWorks:"작동 방식", 
-       howItWorksContent:"앱이 작동하는 방식에 대한 간단한 설명(한국어).", 
+       description:"심장 건강을 모니터링하기 위한 iOS 앱으로, 분당 호흡 수치를 측정합니다.", 
        faq:"자주 묻는 질문", 
        q1:"내 고양이의 호흡을 언제 어떻게 측정해야 하나요?", 
        a1:"이상적으로는 고양이가 휴식을 취하거나 자고 있을 때입니다. 고양이가 숨을 들이쉬거나 내쉴 때마다 호흡 모니터의 폐 아이콘을 터치하세요. 30초 후에 타이머가 멈추고 고양이의 결과가 화면에 나타납니다.", 
@@ -489,8 +468,7 @@ const translations = {
        send:"보내기" 
     },
     zh: { // Chinese (Simplified) translation.
-        howItWorks: "如何运作",
-        howItWorksContent: "关于应用程序如何工作的简要说明（简体中文）。",
+        description: "用于监测心脏健康的iOS应用，通过每分钟呼吸次数的测量。",
         faq: "常见问题",
         q1: "我应该什么时候以及如何测量我的猫的呼吸？",
         a1: "理想情况下，当猫处于休息或睡眠状态时。每次猫吸气或呼气时，只需点击呼吸监测器上的肺部图标。30秒后，计时器将停止，您的猫的结果将显示在屏幕上。",
