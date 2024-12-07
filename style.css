@@ -143,8 +143,33 @@ input[type="submit"]:hover {
     min-width: 25em;
 }
 
-/* Smaller screen widths */
+/* Responsive design */
 @media (max-width: 600px) {
+
+    header { /* Arrange header items vertically */
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .faq-title, .privacy-title, h2 { /* Reduce font size */
+        font-size: 1.2em;
+    }
+    .form-container { /* Remove padding */
+        padding-top: 0px;
+    }
+    details {
+        padding-bottom: 1em; /* Increase padding */
+    }
+    
+    h3 { /* Reduce font size */
+        font-size: 1em;
+    }
+    
+    .form-email { /* Remove padding */
+       padding: 0px;
+    }
+
     body {
         padding: 10px; /* Reduce padding */
     }
@@ -153,7 +178,7 @@ input[type="submit"]:hover {
         padding: 10px; /* Reduce padding */
     }
 
-    .app-logo {
+    .app-logo { /* Reduce size of app logo */
         height: 50px; 
     }
 }
